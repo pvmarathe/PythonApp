@@ -172,3 +172,25 @@ plt.show()
 
 
 ## Pandas Crash Course
+
+# Series
+# A Series is a one dimensional array of data where the rows are labelled using a time axis
+import numpy
+import pandas
+myarray = numpy.array([1,2,3])
+rownames = ['a','b','c']
+myseries = pandas.Series(myarray,index = rownames)
+print(myseries)
+
+print(myseries[0])
+print(myseries['a'])
+
+
+# dataframe
+import numpy
+import pandas
+myarray = numpy.array([[1, 2, 3], [4, 5, 6]])
+rownames = ['a', 'b']
+colnames = ['one', 'two', 'three']
+mydataframe = pandas.DataFrame(myarray, index=rownames, columns=colnames)
+print(mydataframe)
