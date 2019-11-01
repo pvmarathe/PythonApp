@@ -194,3 +194,9 @@ rownames = ['a', 'b']
 colnames = ['one', 'two', 'three']
 mydataframe = pandas.DataFrame(myarray, index=rownames, columns=colnames)
 print(mydataframe)
+
+# Data can be indexed using column names
+print("method 1:")
+print("one column:\n%s" % mydataframe['one'])
+print("method 2:")
+print("one column:\n%s" % mydataframe.one)
