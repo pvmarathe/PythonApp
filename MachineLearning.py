@@ -2,7 +2,7 @@
 #How to install scipy
 #python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose (Run in cmd line outside of python env)
 
-#Checking versions of the moduels in scipy
+#Checking versions of the modules in scipy
 #scipy
 import scipy
 print('scipy: %s' % scipy.__version__)
