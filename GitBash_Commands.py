@@ -13,3 +13,17 @@ print("A3: ls stands for list and it lists all the files in the path or the defa
 #dc gitbash command
 print("Q4: What does cd stand for?")
 print("A4: cd stands for change directory")
+
+#cd ..
+print("cd .. takes me to the previous folder")
+
+#tab
+print("cd type the name of the folder and press tab, gives the full name")
+
+
+#git Add
+print("git add .")
+
+#git commit
+#git commit -m "Some relevant message"
+#git push
