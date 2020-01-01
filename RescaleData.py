@@ -26,3 +26,5 @@ rescaledX = scaler.fit_transform(X)
 # summarize transformed data
 set_printoptions(precision=3)
 print(rescaledX[0:5,:])
+
+# After rescaling you can see that all of the values are in the range between 0 and 1.
